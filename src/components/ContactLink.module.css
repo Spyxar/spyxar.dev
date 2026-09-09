@@ -1,0 +1,10 @@
+.contactLink {
+  transition:
+    background 120ms ease,
+    color 120ms ease;
+}
+
+.contactLink:hover {
+  background: #171b18 !important;
+  color: #20e85a !important;
+}

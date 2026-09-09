@@ -1,0 +1,22 @@
+.projectItem {
+  transition:
+    border-color 150ms ease,
+    background 150ms ease,
+    transform 150ms ease;
+}
+
+.projectItem:hover {
+  border-color: #20e85a !important;
+  background: #131714 !important;
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projectItem {
+    transition: none;
+  }
+
+  .projectItem:hover {
+    transform: none;
+  }
+}

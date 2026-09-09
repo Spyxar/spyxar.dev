@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  background: #0b0d0c;
+  color: #e8ebe9;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #20e85a;
+  color: #08100a;
+}
