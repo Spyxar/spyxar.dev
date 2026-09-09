@@ -2,9 +2,10 @@ import { SimpleGrid, Paper, Text } from "@mantine/core";
 
 export const Metrics = () => {
   return (
-    <SimpleGrid cols={{ base: 1, xs: 3 }} spacing="sm" mt="sm">
+    <SimpleGrid cols={{ base: 1, sm: 4 }} spacing="sm" mt="sm">
       <Metric value="6+" label="years experience" />
       <Metric value="5+" label="projects shipped" />
+      <Metric value="300K+" label="project downloads" />
       <Metric value="∞" label="ideas pending" />
     </SimpleGrid>
   );
